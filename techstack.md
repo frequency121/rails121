@@ -33,8 +33,8 @@ frequency121/rails121 is built on the following main stack:
 - [Bootsnap](https://github.com/shopify/bootsnap) – Ruby Utilities
 - [Istio](https://istio.io/) – Microservices Tools
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
-- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 - [Amazon SNS](http://aws.amazon.com/sns/) – Mobile Push Messaging
+- [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
 
@@ -74,8 +74,8 @@ frequency121/rails121 is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='Bootsnap'/> [Bootsnap](https://github.com/shopify/bootsnap) – Ruby Utilities
 - <img width='25' height='25' src='https://img.stackshare.io/service/7028/AGpa5VZV.jpg' alt='Istio'/> [Istio](https://istio.io/) – Microservices Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
-- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 - <img width='25' height='25' src='https://img.stackshare.io/service/396/amazon-sns.png' alt='Amazon SNS'/> [Amazon SNS](http://aws.amazon.com/sns/) – Mobile Push Messaging
+- <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
 
@@ -86,7 +86,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [frequency121/rails121](https://github.com/frequency121/rails121)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|88<br/>Tools used|12/07/23 <br/>Report generated|
+|88<br/>Tools used|01/16/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -419,64 +419,64 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[activerecord-jdbcsqlite3-adapter](https://rubygems.org/activerecord-jdbcsqlite3-adapter)|N/A|N/A|N/A |BSD-2-Clause|N/A|
-|[aws-sdk-s3](https://rubygems.org/aws-sdk-s3)|v1.117.2|N/A|N/A |Apache-2.0|N/A|
-|[bcrypt](https://rubygems.org/bcrypt)|v3.1.18|N/A|N/A |MIT|N/A|
-|[benchmark-ips](https://rubygems.org/benchmark-ips)|v2.10.0|N/A|N/A |MIT|N/A|
-|[connection_pool](https://rubygems.org/connection_pool)|v2.3.0|N/A|N/A |MIT|N/A|
-|[dalli](https://rubygems.org/dalli)|v3.2.3|N/A|N/A |MIT|N/A|
-|[delayed_job](https://rubygems.org/delayed_job)|v4.1.11|N/A|N/A |MIT|N/A|
-|[delayed_job_active_record](https://rubygems.org/delayed_job_active_record)|v4.1.7|N/A|N/A |MIT|N/A|
-|[google-cloud-storage](https://rubygems.org/google-cloud-storage)|v1.44.0|N/A|N/A |Apache-2.0|N/A|
-|[jbuilder](https://rubygems.org/jbuilder)|v2.11.5|N/A|N/A |MIT|N/A|
-|[json](https://rubygems.org/json)|v2.6.3|N/A|N/A |Ruby|N/A|
-|[libxml-ruby](https://rubygems.org/libxml-ruby)|v4.0.0|N/A|N/A |MIT|N/A|
-|[listen](https://rubygems.org/listen)|v3.8.0|N/A|N/A |MIT|N/A|
-|[mail](https://rubygems.org/mail)|v2.8.0|N/A|N/A |MIT|N/A|
-|[minitest](https://rubygems.org/minitest)|v5.17.0|N/A|N/A |MIT|N/A|
-|[msgpack](https://rubygems.org/msgpack)|v1.7.0|N/A|N/A |Apache-2.0|N/A|
-|[mysql2](https://rubygems.org/mysql2)|v0.5.4|N/A|N/A |MIT|N/A|
-|[nokogiri](https://rubygems.org/nokogiri)|v1.15.2|N/A|N/A |MIT|N/A|
-|[pg](https://rubygems.org/pg)|v1.5.3|N/A|N/A |BSD-2-Clause|N/A|
-|[racc](https://rubygems.org/racc)|v1.6.2|N/A|N/A |BSD-2-Clause|N/A|
-|[rack](https://rubygems.org/rack)|v3.0.8|N/A|N/A |MIT|N/A|
-|[rack-cache](https://rubygems.org/rack-cache)|v1.13.0|N/A|N/A |MIT|N/A|
-|[rack-test](https://rubygems.org/rack-test)|v2.1.0|N/A|N/A |MIT|N/A|
-|[rdoc](https://rubygems.org/rdoc)|v6.5.0|N/A|N/A |Ruby|N/A|
-|[redcarpet](https://rubygems.org/redcarpet)|v3.2.3|N/A|N/A |MIT|[CVE-2020-26298](https://github.com/advisories/GHSA-q3wr-qw3g-3p4h) (Moderate)|
-|[redis-namespace](https://rubygems.org/redis-namespace)|v1.10.0|N/A|N/A |MIT|N/A|
-|[resque](https://rubygems.org/resque)|v2.4.0|N/A|N/A |MIT|N/A|
-|[resque-scheduler](https://rubygems.org/resque-scheduler)|v4.7.0|N/A|N/A |MIT|N/A|
-|[rouge](https://rubygems.org/rouge)|v4.1.0|N/A|N/A |MIT,BSD-2-Clause|N/A|
-|[rubocop-performance](https://rubygems.org/rubocop-performance)|v1.16.0|N/A|N/A |MIT|N/A|
-|[rubocop-rails](https://rubygems.org/rubocop-rails)|v2.18.0|N/A|N/A |MIT|N/A|
-|[ruby-oci8](https://rubygems.org/ruby-oci8)|v2.2|N/A|N/A |BSD-2-Clause|N/A|
-|[rubyzip](https://rubygems.org/rubyzip)|v2.3.2|N/A|N/A |BSD-2-Clause|N/A|
-|[sdoc](https://rubygems.org/sdoc)|v2.6.1|N/A|N/A |MIT|N/A|
-|[selenium-webdriver](https://rubygems.org/selenium-webdriver)|v4.7.1|N/A|N/A |Apache-2.0|N/A|
-|[sprockets-rails](https://rubygems.org/sprockets-rails)|v3.4.2|N/A|N/A |MIT|N/A|
-|[sqlite3](https://rubygems.org/sqlite3)|v1.6.2|N/A|N/A |BSD-3-Clause|N/A|
-|[stackprof](https://rubygems.org/stackprof)|v0.2.23|N/A|N/A |MIT|N/A|
-|[sucker_punch](https://rubygems.org/sucker_punch)|v3.1.0|N/A|N/A |MIT|N/A|
-|[tzinfo-data](https://rubygems.org/tzinfo-data)|N/A|N/A|N/A |MIT|N/A|
-|[w3c_validators](https://rubygems.org/w3c_validators)|v1.3.7|N/A|N/A |Other|N/A|
-|[webdrivers](https://rubygems.org/webdrivers)|v5.2.0|N/A|N/A |MIT|N/A|
-|[webmock](https://rubygems.org/webmock)|v3.18.1|N/A|N/A |MIT|N/A|
-|[webrick](https://rubygems.org/webrick)|v1.8.1|N/A|N/A |BSD-2-Clause|N/A|
-|[websocket-client-simple](https://rubygems.org/websocket-client-simple)|v0.3.0|N/A|N/A |MIT|N/A|
+|[activerecord-jdbcsqlite3-adapter](https://rubygems.org/activerecord-jdbcsqlite3-adapter)|N/A|12/15/22|Yasuo Honda |BSD-2-Clause|N/A|
+|[aws-sdk-s3](https://rubygems.org/aws-sdk-s3)|v1.117.2|12/24/18|George Claghorn |Apache-2.0|N/A|
+|[bcrypt](https://rubygems.org/bcrypt)|v3.1.18|08/06/16|Xavier Noria |MIT|N/A|
+|[benchmark-ips](https://rubygems.org/benchmark-ips)|v2.10.0|05/24/21|Ryuta Kamizono |MIT|N/A|
+|[connection_pool](https://rubygems.org/connection_pool)|v2.3.0|01/25/23|zzak |MIT|N/A|
+|[dalli](https://rubygems.org/dalli)|v3.2.3|10/14/21|Rafael Mendonça França |MIT|N/A|
+|[delayed_job](https://rubygems.org/delayed_job)|v4.1.11|12/29/17|yuuji.yaginuma |MIT|N/A|
+|[delayed_job_active_record](https://rubygems.org/delayed_job_active_record)|v4.1.7|12/24/18|George Claghorn |MIT|N/A|
+|[google-cloud-storage](https://rubygems.org/google-cloud-storage)|v1.44.0|08/23/21|Petrik |Apache-2.0|N/A|
+|[jbuilder](https://rubygems.org/jbuilder)|v2.11.5|10/03/22|Jonathan Hefner |MIT|N/A|
+|[json](https://rubygems.org/json)|v2.6.3|11/15/16|Akira Matsuda |Ruby|N/A|
+|[libxml-ruby](https://rubygems.org/libxml-ruby)|v4.0.0|04/19/23|eileencodes |MIT|N/A|
+|[listen](https://rubygems.org/listen)|v3.8.0|11/10/20|Jonathan Hefner |MIT|N/A|
+|[mail](https://rubygems.org/mail)|v2.8.0|03/26/20|Abhay Nikam |MIT|N/A|
+|[minitest](https://rubygems.org/minitest)|v5.17.0|06/15/22|eileencodes |MIT|N/A|
+|[msgpack](https://rubygems.org/msgpack)|v1.7.0|03/22/23|Jonathan Hefner |Apache-2.0|N/A|
+|[mysql2](https://rubygems.org/mysql2)|v0.5.4|05/04/22|Jean Boussier |MIT|N/A|
+|[nokogiri](https://rubygems.org/nokogiri)|v1.15.2|01/05/21|Ryuta Kamizono |MIT|N/A|
+|[pg](https://rubygems.org/pg)|v1.5.3|11/10/09|Jeremy Kemper |BSD-2-Clause|N/A|
+|[racc](https://rubygems.org/racc)|v1.6.2|08/06/16|Xavier Noria |BSD-2-Clause|N/A|
+|[rack](https://rubygems.org/rack)|v3.0.8|01/25/23|Rafael Mendonça França |MIT|N/A|
+|[rack-cache](https://rubygems.org/rack-cache)|v1.13.0|06/13/23|Guillermo Iguaran |MIT|N/A|
+|[rack-test](https://rubygems.org/rack-test)|v2.1.0|01/25/23|Rafael Mendonça França |MIT|N/A|
+|[rdoc](https://rubygems.org/rdoc)|v6.5.0|02/06/23|zzak |Ruby|N/A|
+|[redcarpet](https://rubygems.org/redcarpet)|v3.2.3|08/06/16|Xavier Noria |MIT|[CVE-2020-26298](https://github.com/advisories/GHSA-q3wr-qw3g-3p4h) (Moderate)|
+|[redis-namespace](https://rubygems.org/redis-namespace)|v1.10.0|09/06/22|Jean Boussier |MIT|N/A|
+|[resque](https://rubygems.org/resque)|v2.4.0|12/13/17|yuuji.yaginuma |MIT|[CVE-2023-50727](https://github.com/advisories/GHSA-r9mq-m72x-257g) (Moderate)|
+|[resque-scheduler](https://rubygems.org/resque-scheduler)|v4.7.0|12/13/17|yuuji.yaginuma |MIT|[CVE-2022-44303](https://github.com/advisories/GHSA-9hmq-fm33-x4xx) (Moderate)<br/>[](https://github.com/advisories/GHSA-q7jc-v6f2-q9jr) (Moderate)|
+|[rouge](https://rubygems.org/rouge)|v4.1.0|07/04/20|Petrik |MIT,BSD-2-Clause|N/A|
+|[rubocop-performance](https://rubygems.org/rubocop-performance)|v1.16.0|03/15/23|zzak |MIT|N/A|
+|[rubocop-rails](https://rubygems.org/rubocop-rails)|v2.18.0|03/15/23|zzak |MIT|N/A|
+|[ruby-oci8](https://rubygems.org/ruby-oci8)|v2.2|04/19/23|eileencodes |BSD-2-Clause|N/A|
+|[rubyzip](https://rubygems.org/rubyzip)|v2.3.2|04/19/23|eileencodes |BSD-2-Clause|N/A|
+|[sdoc](https://rubygems.org/sdoc)|v2.6.1|01/11/23|Petrik |MIT|N/A|
+|[selenium-webdriver](https://rubygems.org/selenium-webdriver)|v4.7.1|10/20/21|Ryuta Kamizono |Apache-2.0|N/A|
+|[sprockets-rails](https://rubygems.org/sprockets-rails)|v3.4.2|03/01/23|Lázaro Nixon |MIT|N/A|
+|[sqlite3](https://rubygems.org/sqlite3)|v1.6.2|12/15/22|Yasuo Honda |BSD-3-Clause|N/A|
+|[stackprof](https://rubygems.org/stackprof)|v0.2.23|08/06/16|Xavier Noria |MIT|N/A|
+|[sucker_punch](https://rubygems.org/sucker_punch)|v3.1.0|08/06/16|Xavier Noria |MIT|N/A|
+|[tzinfo-data](https://rubygems.org/tzinfo-data)|N/A|09/12/22|johnnyshields |MIT|N/A|
+|[w3c_validators](https://rubygems.org/w3c_validators)|v1.3.7|09/21/20|utilum |Other|N/A|
+|[webdrivers](https://rubygems.org/webdrivers)|v5.2.0|06/13/23|Guillermo Iguaran |MIT|N/A|
+|[webmock](https://rubygems.org/webmock)|v3.18.1|12/24/18|George Claghorn |MIT|N/A|
+|[webrick](https://rubygems.org/webrick)|v1.8.1|12/13/20|Yasuo Honda |BSD-2-Clause|N/A|
+|[websocket-client-simple](https://rubygems.org/websocket-client-simple)|v0.3.0|10/09/21|David Heinemeier Hansson |MIT|N/A|
 
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (7)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[@rollup/plugin-node-resolve](https://www.npmjs.com/@rollup/plugin-node-resolve)|v11.2.1|N/A|N/A |MIT|N/A|
-|[eslint-plugin-import](https://www.npmjs.com/eslint-plugin-import)|v2.27.5|N/A|N/A |MIT|N/A|
-|[karma-chrome-launcher](https://www.npmjs.com/karma-chrome-launcher)|v2.2.0|N/A|N/A |MIT|N/A|
-|[karma-qunit](https://www.npmjs.com/karma-qunit)|v2.1.0|N/A|N/A |MIT|N/A|
-|[karma-sauce-launcher](https://www.npmjs.com/karma-sauce-launcher)|v1.2.0|N/A|N/A |MIT|N/A|
-|[mock-socket](https://www.npmjs.com/mock-socket)|v2.0.0|N/A|N/A |MIT|N/A|
-|[rollup-plugin-terser](https://www.npmjs.com/rollup-plugin-terser)|v7.0.2|N/A|N/A |MIT|N/A|
+|[@rollup/plugin-node-resolve](https://www.npmjs.com/@rollup/plugin-node-resolve)|v11.2.1|08/06/21|David Heinemeier Hansson |MIT|N/A|
+|[eslint-plugin-import](https://www.npmjs.com/eslint-plugin-import)|v2.27.5|08/06/21|David Heinemeier Hansson |MIT|N/A|
+|[karma-chrome-launcher](https://www.npmjs.com/karma-chrome-launcher)|v2.2.0|11/26/18|rmacklin |MIT|N/A|
+|[karma-qunit](https://www.npmjs.com/karma-qunit)|v2.1.0|11/26/18|rmacklin |MIT|N/A|
+|[karma-sauce-launcher](https://www.npmjs.com/karma-sauce-launcher)|v1.2.0|11/26/18|rmacklin |MIT|N/A|
+|[mock-socket](https://www.npmjs.com/mock-socket)|v2.0.0|11/26/18|rmacklin |MIT|N/A|
+|[rollup-plugin-terser](https://www.npmjs.com/rollup-plugin-terser)|v7.0.2|08/06/21|David Heinemeier Hansson |MIT|N/A|
 
 <br/>
 <div align='center'>
