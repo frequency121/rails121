@@ -1,8 +1,8 @@
 repo_name: frequency121/rails121
-report_id: fb5f8730cdf82e719295f7e4abad47d6
+report_id: d62958c1e69ecde1d889e2bc239400b4
 version: 0.1
 repo_type: Public
-timestamp: '2024-03-01T15:10:57+00:00'
+timestamp: '2024-03-05T13:35:40+00:00'
 requested_by: abhishekdbit1
 provider: github
 branch: main
@@ -717,7 +717,7 @@ tools:
   last_updated_on: 2021-01-05 12:52:07.000000000 Z
   vulnerabilities:
   - name: Nokogiri update packaged libxml2 to v2.12.5 to resolve CVE-2024-25062
-    cve_id: 
+    cve_id:
     cve_url: https://github.com/advisories/GHSA-xc9x-jj77-9p9j
     detected_date: Feb 6
     severity: moderate
@@ -765,6 +765,25 @@ tools:
   detection_source: actionpack/actionpack.gemspec
   last_updated_by: Rafael Mendonça França
   last_updated_on: 2023-01-25 15:25:49.000000000 Z
+  vulnerabilities:
+  - name: Rack vulnerable to ReDoS in content type parsing (2nd degree polynomial)
+    cve_id: CVE-2024-25126
+    cve_url: https://github.com/advisories/GHSA-22f2-v57c-j9cx
+    detected_date: Feb 29
+    severity: low
+    first_patched: 3.0.9.1
+  - name: Rack Header Parsing leads to Possible Denial of Service Vulnerability
+    cve_id: CVE-2024-26146
+    cve_url: https://github.com/advisories/GHSA-54rr-7fvw-6x8f
+    detected_date: Feb 29
+    severity: low
+    first_patched: 3.0.9.1
+  - name: Rack has possible DoS Vulnerability with Range Header
+    cve_id: CVE-2024-26141
+    cve_url: https://github.com/advisories/GHSA-xj5v-6v4g-jfw6
+    detected_date: Feb 29
+    severity: low
+    first_patched: 3.0.9.1
 - name: rack-cache
   description: Rack::Cache is suitable as a quick drop-in component to enable HTTP
     caching for Rack-based applications that produce freshness
@@ -888,7 +907,7 @@ tools:
     severity: moderate
     first_patched: 4.10.2
   - name: 'Duplicate Advisory: Resque Scheduler Reflected XSS In Delayed Jobs View'
-    cve_id: 
+    cve_id:
     cve_url: https://github.com/advisories/GHSA-q7jc-v6f2-q9jr
     detected_date: Dec 19
     severity: moderate
