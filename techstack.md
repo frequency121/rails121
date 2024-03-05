@@ -86,7 +86,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [frequency121/rails121](https://github.com/frequency121/rails121)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|88<br/>Tools used|03/01/24 <br/>Report generated|
+|88<br/>Tools used|03/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -439,7 +439,7 @@ Full tech stack [here](/techstack.md)
 |[nokogiri](https://rubygems.org/nokogiri)|v1.15.2|01/05/21|Ryuta Kamizono |MIT|[](https://github.com/advisories/GHSA-xc9x-jj77-9p9j) (Moderate)|
 |[pg](https://rubygems.org/pg)|v1.5.3|11/10/09|Jeremy Kemper |BSD-2-Clause|N/A|
 |[racc](https://rubygems.org/racc)|v1.6.2|08/06/16|Xavier Noria |BSD-2-Clause|N/A|
-|[rack](https://rubygems.org/rack)|v3.0.8|01/25/23|Rafael Mendonça França |MIT|N/A|
+|[rack](https://rubygems.org/rack)|v3.0.8|01/25/23|Rafael Mendonça França |MIT|[CVE-2024-25126](https://github.com/advisories/GHSA-22f2-v57c-j9cx) (Low)<br/>[CVE-2024-26146](https://github.com/advisories/GHSA-54rr-7fvw-6x8f) (Low)<br/>[CVE-2024-26141](https://github.com/advisories/GHSA-xj5v-6v4g-jfw6) (Low)|
 |[rack-cache](https://rubygems.org/rack-cache)|v1.13.0|06/13/23|Guillermo Iguaran |MIT|N/A|
 |[rack-test](https://rubygems.org/rack-test)|v2.1.0|01/25/23|Rafael Mendonça França |MIT|N/A|
 |[rdoc](https://rubygems.org/rdoc)|v6.5.0|02/06/23|zzak |Ruby|N/A|
