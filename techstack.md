@@ -86,7 +86,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [frequency121/rails121](https://github.com/frequency121/rails121)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|88<br/>Tools used|03/08/24 <br/>Report generated|
+|88<br/>Tools used|03/12/24 <br/>Report generated|
 |------|------|
 </div>
 
