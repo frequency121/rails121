@@ -1,12 +1,12 @@
 repo_name: frequency121/rails121
-report_id: 6170fc4225da7adfab7020e15f88824c
+report_id: ec879f1015531c8b3d9afe3c091056a5
 version: 0.1
 repo_type: Public
-timestamp: '2024-03-12T09:51:36+00:00'
+timestamp: '2024-03-18T13:05:37+00:00'
 requested_by: abhishekdbit1
 provider: github
 branch: main
-detected_tools_count: 88
+detected_tools_count: 116
 tools:
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -52,17 +52,19 @@ tools:
   detection_source: actionview/test/fixtures/db_definitions/sqlite.sql
   last_updated_by: Piotr Sarnacki
   last_updated_on: 2013-04-16 22:06:11.000000000 Z
-- name: Shell
-  description: A shell is a text-based terminal, used for manipulating programs and
-    files. Shell scripts typically manage program execution.
-  website_url: https://en.wikipedia.org/wiki/Shell_script
-  open_source: false
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
   hosted_saas: false
   category: Languages & Frameworks
   sub_category: Languages
-  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
-  detection_source_url: https://github.com/frequency121/rails121
-  detection_source: Repo Metadata
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/.devcontainer/Dockerfile
+  detection_source: ".devcontainer/Dockerfile"
+  last_updated_by: Edwin Vlieg
+  last_updated_on: 2021-08-20 19:05:00.000000000 Z
 - name: Node.js
   description: A platform built on Chrome's JavaScript runtime for easily building
     fast, scalable network applications
@@ -103,6 +105,18 @@ tools:
   detection_source: Gemfile
   last_updated_by: Jeremy Kemper
   last_updated_on: 2009-11-10 22:59:22.000000000 Z
+- name: Azure Storage
+  description: Reliable, economical cloud storage for data big and small
+  website_url: http://azure.microsoft.com/en-us/services/storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/2099/azureStorage.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Petrik
+  last_updated_on: 2021-08-23 19:17:59.000000000 Z
 - name: Google Cloud Storage
   description: Durable and highly available object storage service
   website_url: https://cloud.google.com/products/cloud-storage/
@@ -264,21 +278,6 @@ tools:
   detection_source: ".github/workflows/build-and-test-dev-image.yml"
   last_updated_by: zzak
   last_updated_on: 2023-03-11 23:06:42.000000000 Z
-- name: Istio
-  description: Open platform to connect, manage, and secure microservices, by Google,
-    IBM, and Lyft
-  website_url: https://istio.io/
-  version: 0.11.2
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Build, Test, Deploy
-  sub_category: Microservices Tools
-  image_url: https://img.stackshare.io/service/7028/AGpa5VZV.jpg
-  detection_source_url: https://github.com/frequency121/rails121/blob/main/yarn.lock
-  detection_source: actionmailbox/test/dummy/config/database.yml
-  last_updated_by: David Heinemeier Hansson
-  last_updated_on: 2018-09-18 00:48:32.000000000 Z
 - name: Karma
   description: Spectacular Test Runner for JavaScript
   website_url: http://karma-runner.github.io/
@@ -343,8 +342,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
-  detection_source_url: https://github.com/frequency121/rails121/blob/main/actionpack/actionpack.gemspec
-  detection_source: actionpack/actionpack.gemspec
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/railties/railties.gemspec
+  detection_source: railties/railties.gemspec
   last_updated_by: Yehuda Katz
   last_updated_on: 2009-09-01 00:20:44.000000000 Z
 - name: Webpack
@@ -448,19 +447,55 @@ tools:
   detection_source: Gemfile
   last_updated_by: Prathamesh Sonpatki
   last_updated_on: 2019-04-26 07:25:28.000000000 Z
-- name: Rake
-  description: A software task management and build automation tool
-  website_url: https://github.com/ruby/rake
-  license: MIT
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
   open_source: true
   hosted_saas: false
-  category: Application Utilities
-  sub_category: Task Management
-  image_url: https://ucarecdn.com/79629173-de2d-4cdf-8509-6d1411b382e7/
-  detection_source_url: https://github.com/frequency121/rails121/blob/main/railties/railties.gemspec
-  detection_source: railties/railties.gemspec
-  last_updated_by: Yehuda Katz
-  last_updated_on: 2009-09-01 00:20:44.000000000 Z
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/.devcontainer/Dockerfile
+  detection_source: ".devcontainer/Dockerfile"
+  last_updated_by: Edwin Vlieg
+  last_updated_on: 2021-08-20 19:05:00.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/frequency121/rails121
+  detection_source: Repo Metadata
+- name: activerecord-jdbcmysql-adapter
+  description: MySQL JDBC adapter for JRuby on Rails
+  package_url: https://rubygems.org/activerecord-jdbcmysql-adapter
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Jean Boussier
+  last_updated_on: 2022-05-04 11:00:35.000000000 Z
+- name: activerecord-jdbcpostgresql-adapter
+  description: Postgres JDBC adapter for JRuby on Rails
+  package_url: https://rubygems.org/activerecord-jdbcpostgresql-adapter
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Ryuta Kamizono
+  last_updated_on: 2021-10-20 13:31:26.000000000 Z
 - name: activerecord-jdbcsqlite3-adapter
   description: Sqlite3 JDBC adapter for JRuby on Rails
   package_url: https://rubygems.org/activerecord-jdbcsqlite3-adapter
@@ -474,6 +509,20 @@ tools:
   detection_source: Gemfile
   last_updated_by: Yasuo Honda
   last_updated_on: 2022-12-15 23:47:32.000000000 Z
+- name: activerecord-oracle_enhanced-adapter
+  description: Oracle "enhanced" ActiveRecord adapter contains useful additional methods
+    for working with new and legacy Oracle databases
+  package_url: https://rubygems.org/activerecord-oracle_enhanced-adapter
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: zzak
+  last_updated_on: 2023-01-21 01:30:47.000000000 Z
 - name: aws-sdk-s3
   description: Official AWS Ruby gem for Amazon Simple Storage Service
   package_url: https://rubygems.org/aws-sdk-s3
@@ -484,6 +533,20 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19078/default_4df61286a41b221e05fffb41a1003ffc1a8eaf4e.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: George Claghorn
+  last_updated_on: 2018-12-24 20:16:22.000000000 Z
+- name: aws-sdk-sns
+  description: Official AWS Ruby gem for Amazon Simple Notification Service
+  package_url: https://rubygems.org/aws-sdk-sns
+  version: 1.57.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
   detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: George Claghorn
@@ -516,6 +579,36 @@ tools:
   detection_source: Gemfile
   last_updated_by: Ryuta Kamizono
   last_updated_on: 2021-05-24 21:11:38.000000000 Z
+- name: builder
+  description: Builder provides a number of builder objects that make creating structured
+    data simple to do
+  package_url: https://rubygems.org/builder
+  version: 3.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18875/default_0cd89f02ed75d3a8429cd566a89b1a4a36ad114f.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: actionview/actionview.gemspec
+  last_updated_by: Xavier Noria
+  last_updated_on: 2016-08-06 17:23:48.000000000 Z
+- name: concurrent-ruby
+  description: Modern concurrency tools including agents, futures, promises, thread
+    pools, actors, supervisors, and more
+  package_url: https://rubygems.org/concurrent-ruby
+  version: 1.1.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18968/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: activesupport/activesupport.gemspec
+  last_updated_by: Rafael Mendonça França
+  last_updated_on: 2021-11-15 21:06:21.000000000 Z
 - name: connection_pool
   description: Generic connection pool for Ruby
   package_url: https://rubygems.org/connection_pool
@@ -572,6 +665,41 @@ tools:
   detection_source: Gemfile
   last_updated_by: George Claghorn
   last_updated_on: 2018-12-24 20:16:22.000000000 Z
+- name: erubi
+  description: Erubi is a ERB template engine for ruby
+  package_url: https://rubygems.org/erubi
+  version: 1.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: actionview/actionview.gemspec
+  last_updated_by: Jean Boussier
+  last_updated_on: 2022-07-28 09:40:55.000000000 Z
+- name: globalid
+  description: URIs for your models makes it easy to pass references around
+  package_url: https://rubygems.org/globalid
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: actiontext/actiontext.gemspec
+  last_updated_by: Rafael Mendonça França
+  last_updated_on: 2021-11-24 22:33:45.000000000 Z
+  vulnerabilities:
+  - name: ReDoS based DoS vulnerability in GlobalID
+    cve_id: CVE-2023-22799
+    cve_url: https://github.com/advisories/GHSA-23c2-gwp5-pxw9
+    detected_date: Jan 19
+    severity: low
+    first_patched: 1.0.1
 - name: google-cloud-storage
   description: Google-cloud-storage is the official library for Google Cloud Storage
   package_url: https://rubygems.org/google-cloud-storage
@@ -586,6 +714,49 @@ tools:
   detection_source: Gemfile
   last_updated_by: Petrik
   last_updated_on: 2021-08-23 19:17:59.000000000 Z
+- name: i18n
+  description: New wave Internationalization support for Ruby
+  package_url: https://rubygems.org/i18n
+  version: 1.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18859/default_098b6651de16fb4d6fdc54a8089650263c837883.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: activesupport/activesupport.gemspec
+  last_updated_by: Diego Plentz
+  last_updated_on: 2019-11-21 19:59:22.000000000 Z
+- name: image_processing
+  description: High-level wrapper for processing images for the web with ImageMagick
+    or libvips
+  package_url: https://rubygems.org/image_processing
+  version: 1.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: David Heinemeier Hansson
+  last_updated_on: 2021-10-09 15:03:05.000000000 Z
+- name: irb
+  description: Interactive Ruby command-line tool for REPL
+  package_url: https://rubygems.org/irb
+  version: 1.6.2
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19651/default_031d700d5f589b872d1d7b6f6ef54682aec7dc44.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: railties/railties.gemspec
+  last_updated_by: Yehuda Katz
+  last_updated_on: 2009-09-01 00:20:44.000000000 Z
 - name: jbuilder
   description: Create JSON structures via a Builder-style DSL
   package_url: https://rubygems.org/jbuilder
@@ -658,6 +829,20 @@ tools:
   detection_source: actionmailbox/actionmailbox.gemspec
   last_updated_by: Abhay Nikam
   last_updated_on: 2020-03-26 06:21:37.000000000 Z
+- name: mdl
+  description: Style checker/lint tool for markdown files
+  package_url: https://rubygems.org/mdl
+  version: 0.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Jeremy Kemper
+  last_updated_on: 2009-11-10 22:59:22.000000000 Z
 - name: minitest
   description: Minitest provides a complete suite of testing facilities supporting
     TDD, BDD, mocking, and benchmarking
@@ -669,6 +854,35 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18818/default_f36df1cfa9ff6061d7f9b4879088be8538581c49.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: eileencodes
+  last_updated_on: 2022-06-15 16:44:11.000000000 Z
+- name: minitest-bisect
+  description: Hunting down random test failures can be very very difficult, sometimes
+    impossible, but minitest-bisect makes it easy
+  package_url: https://rubygems.org/minitest-bisect
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: eileencodes
+  last_updated_on: 2022-06-15 16:44:11.000000000 Z
+- name: minitest-ci
+  description: Minitest Junit XML results that CircleCI can read
+  package_url: https://rubygems.org/minitest-ci
+  version: 3.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
   detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
   detection_source: Gemfile
   last_updated_by: eileencodes
@@ -701,6 +915,21 @@ tools:
   detection_source: Gemfile
   last_updated_by: Jean Boussier
   last_updated_on: 2022-05-04 11:00:35.000000000 Z
+- name: nio4r
+  description: Cross-platform asynchronous I/O primitives for scalable network clients
+    and servers
+  package_url: https://rubygems.org/nio4r
+  version: 2.5.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19660/default_c8a721cc38a7754b5e6e26cb009422fdb8fa90f4.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: actioncable/actioncable.gemspec
+  last_updated_by: Tony Arcieri
+  last_updated_on: 2016-12-29 03:45:39.000000000 Z
 - name: nokogiri
   description: Nokogiri
   package_url: https://rubygems.org/nokogiri
@@ -736,6 +965,20 @@ tools:
   detection_source: Gemfile
   last_updated_by: Jeremy Kemper
   last_updated_on: 2009-11-10 22:59:22.000000000 Z
+- name: queue_classic
+  description: Queue_classic is a queueing library for Ruby apps
+  package_url: https://rubygems.org/queue_classic
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Yasuo Honda
+  last_updated_on: 2022-05-18 05:04:19.000000000 Z
 - name: racc
   description: Racc is a LALR
   package_url: https://rubygems.org/racc
@@ -813,6 +1056,49 @@ tools:
   detection_source: actionpack/actionpack.gemspec
   last_updated_by: Rafael Mendonça França
   last_updated_on: 2023-01-25 15:25:49.000000000 Z
+- name: rails-dom-testing
+  description: This gem can compare doms and assert certain elements exists in doms
+    using Nokogiri
+  package_url: https://rubygems.org/rails-dom-testing
+  version: 2.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: actionmailer/actionmailer.gemspec
+  last_updated_by: Abhay Nikam
+  last_updated_on: 2020-03-26 06:21:37.000000000 Z
+- name: rails-html-sanitizer
+  description: HTML sanitization for Rails applications
+  package_url: https://rubygems.org/rails-html-sanitizer
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: actionpack/actionpack.gemspec
+  last_updated_by: Mike Dalessio
+  last_updated_on: 2023-05-24 16:47:52.000000000 Z
+- name: rake
+  description: Rake is a Make-like program implemented in Ruby
+  package_url: https://rubygems.org/rake
+  version: 13.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Akira Matsuda
+  last_updated_on: 2022-12-15 07:14:22.000000000 Z
 - name: rdoc
   description: RDoc produces HTML and command-line documentation for Ruby projects
   package_url: https://rubygems.org/rdoc
@@ -900,15 +1186,15 @@ tools:
   last_updated_by: yuuji.yaginuma
   last_updated_on: 2017-12-13 22:49:08.000000000 Z
   vulnerabilities:
-  - name: Resque Scheduler Reflected XSS In Delayed Jobs View
-    cve_id: CVE-2022-44303
-    cve_url: https://github.com/advisories/GHSA-9hmq-fm33-x4xx
-    detected_date: Dec 19
-    severity: moderate
-    first_patched: 4.10.2
   - name: 'Duplicate Advisory: Resque Scheduler Reflected XSS In Delayed Jobs View'
     cve_id:
     cve_url: https://github.com/advisories/GHSA-q7jc-v6f2-q9jr
+    detected_date: Dec 19
+    severity: moderate
+    first_patched: 4.10.2
+  - name: Resque Scheduler Reflected XSS In Delayed Jobs View
+    cve_id: CVE-2022-44303
+    cve_url: https://github.com/advisories/GHSA-9hmq-fm33-x4xx
     detected_date: Dec 19
     severity: moderate
     first_patched: 4.10.2
@@ -926,6 +1212,21 @@ tools:
   detection_source: Gemfile
   last_updated_by: Petrik
   last_updated_on: 2020-07-04 08:59:08.000000000 Z
+- name: rubocop-md
+  description: Run Rubocop against your Markdown files to make sure that code examples
+    follow style guidelines
+  package_url: https://rubygems.org/rubocop-md
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: zzak
+  last_updated_on: 2023-03-15 01:37:11.000000000 Z
 - name: rubocop-performance
   description: A collection of RuboCop cops to check for performance optimizations
     in Ruby code
@@ -1011,6 +1312,20 @@ tools:
   detection_source: Gemfile
   last_updated_by: Ryuta Kamizono
   last_updated_on: 2021-10-20 13:31:26.000000000 Z
+- name: sneakers
+  description: Fast background processing framework for Ruby and RabbitMQ
+  package_url: https://rubygems.org/sneakers
+  version: 2.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Xavier Noria
+  last_updated_on: 2016-08-06 17:23:19.000000000 Z
 - name: sprockets-rails
   description: Sprockets Rails integration
   package_url: https://rubygems.org/sprockets-rails
@@ -1068,6 +1383,35 @@ tools:
   detection_source: Gemfile
   last_updated_by: Xavier Noria
   last_updated_on: 2016-08-06 17:23:19.000000000 Z
+- name: thor
+  description: Thor is a toolkit for building powerful command-line interfaces
+  package_url: https://rubygems.org/thor
+  version: 1.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18827/default_fa0604c1b3b2c413c942b4fa310935704d314c2f.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: railties/railties.gemspec
+  last_updated_by: Hartley McGuire
+  last_updated_on: 2023-05-05 18:15:17.000000000 Z
+- name: tzinfo
+  description: TZInfo provides access to time zone data and allows times to be converted
+    using time zone rules
+  package_url: https://rubygems.org/tzinfo
+  version: 2.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18981/default_eb163f66039a75cd168fad8a88ccdb68b82bccff.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: activesupport/activesupport.gemspec
+  last_updated_by: Phil Ross
+  last_updated_on: 2017-12-29 12:47:10.000000000 Z
 - name: tzinfo-data
   description: TZInfo::Data contains data from the IANA Time Zone database packaged
     as Ruby modules for use with TZInfo
@@ -1097,6 +1441,34 @@ tools:
   detection_source: Gemfile
   last_updated_by: utilum
   last_updated_on: 2020-09-21 05:19:59.000000000 Z
+- name: wdm
+  description: Windows Directory Monitor
+  package_url: https://rubygems.org/wdm
+  version: 0.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Jeremy Kemper
+  last_updated_on: 2009-11-10 22:59:22.000000000 Z
+- name: web-console
+  description: A debugging tool for your Ruby on Rails applications
+  package_url: https://rubygems.org/web-console
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Jonathan Hefner
+  last_updated_on: 2022-10-03 22:26:04.000000000 Z
 - name: webdrivers
   description: Run Selenium tests more easily with install and updates for all supported
     webdrivers
@@ -1156,6 +1528,34 @@ tools:
   detection_source: Gemfile
   last_updated_by: David Heinemeier Hansson
   last_updated_on: 2021-10-09 15:03:05.000000000 Z
+- name: websocket-driver
+  description: WebSocket protocol handler with pluggable I/O
+  package_url: https://rubygems.org/websocket-driver
+  version: 0.7.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19572/default_f0f4dd76e2d9f1381e7516b105459a4388228be1.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: actioncable/actioncable.gemspec
+  last_updated_by: Jared Beck
+  last_updated_on: 2018-01-18 21:32:26.000000000 Z
+- name: zeitwerk
+  description: Zeitwerk implements constant autoloading with Ruby semantics
+  package_url: https://rubygems.org/zeitwerk
+  version: 2.6.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19560/default_cc29e04812dfddf37ca12aa58ac16035678d77ea.png
+  detection_source_url: https://github.com/frequency121/rails121/blob/main/Gemfile.lock
+  detection_source: actioncable/actioncable.gemspec
+  last_updated_by: Xavier Noria
+  last_updated_on: 2022-06-13 21:43:42.000000000 Z
 - name: "@rollup/plugin-node-resolve"
   description: Locate and bundle third-party dependencies in node_modules
   package_url: https://www.npmjs.com/@rollup/plugin-node-resolve
